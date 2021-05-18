@@ -1,3 +1,5 @@
 import App from "./clases/App.js";
-
-const app = new App();
+window.onload = () => {
+  console.log("Documento listo");
+  const app = new App();
+};

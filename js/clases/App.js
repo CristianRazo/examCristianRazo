@@ -1,4 +1,4 @@
-import { datosCita, nuevaCita } from "../funciones.js";
+import { datosCita, nuevaCita, crearDB } from "../funciones.js";
 import { formulario } from "../selectores.js";
 
 class App {
@@ -9,6 +9,7 @@ class App {
   initApp() {
     formulario.addEventListener("input", datosCita);
     formulario.addEventListener("submit", nuevaCita);
+    crearDB();
   }
 }
 
