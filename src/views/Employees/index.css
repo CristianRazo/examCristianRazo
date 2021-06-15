@@ -1,0 +1,8 @@
+.icono {
+  padding: 0 0 0 auto;
+  display: inline-block;
+}
+
+.icono img {
+  width: 35px;
+}
